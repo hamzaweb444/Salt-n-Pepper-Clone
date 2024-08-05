@@ -1,0 +1,93 @@
+body{
+    margin: 0px; 
+}
+
+.head-parent{
+    padding: 0px 5px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.franchise{
+    border: 1px solid white;
+    padding: 16.5px 12px;
+    border-radius: 35px;
+}
+
+.order-online{
+    border: 1px solid red;
+    background-color: red;
+    padding: 12px 12px;
+    border-radius: 35px;
+}
+
+.fa-arrow-right{
+    border: 1px solid white;
+    color: red;
+    background-color: white;
+    padding: 6px 7px;
+    border-radius: 23px;
+}
+
+.container-1{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+}
+.welcome{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(170, 169, 169);
+}
+
+p{
+    margin-top: 0px;
+}
+
+.brand-names{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.restaurant, .express, .village{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lazy{
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+.button-1{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 15px 30px;
+}
+
+.button-1-3{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 14.5px 30px;
+}
+
+
+
