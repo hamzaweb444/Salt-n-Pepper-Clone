@@ -38,6 +38,8 @@ ul{
     border-radius: 23px;
 }
 
+/* CONTAINER 1 */
+
 .container-1{
     background-color: black;
     color: white;
@@ -89,5 +91,62 @@ p{
     padding: 14.5px 30px;
 }
 
+/* CONTAINER 2 */
 
+.container-2{
+    background-color: rgb(41, 40, 40);
+    color: rgb(170, 169, 169);
+}
 
+.r-franchises{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(170, 169, 169);
+}
+
+.l-container-2{
+    margin-left: 38px;
+}
+
+.r-isl{
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.button-2-1{
+    width: 128px;
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px 12px;
+    border-radius: 50px;
+    gap: 15px;
+    color: white;
+}
+
+.red{
+    color: red;
+    font-weight: lighter;
+}
+
+.white{
+    color: white;
+}
+
+.phone{
+    text-decoration: none;
+    color: rgb(170, 169, 169);
+}
+
+.r-fsd{
+    display: flex;
+    gap: 310px;
+    justify-content: center;
+}
+
+.fsd-txt{
+    margin-left: -250px;
+}
