@@ -39,6 +39,10 @@
         </nav>
     </head>
 
+    <!-- IMAGE SLIDER -->
+
+    
+
     <!-- CONTAINER 1 -->
 
     <div class="container-1">
@@ -367,38 +371,7 @@
         </div>
     </div>
 
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-        <i class="fa fa-angle-up"></i>
-    </button>
-    
-    <script>
-       // Get the button
-let mybutton = document.getElementById("btn-back-to-top");
-
-// When the user scrolls down 100px from the top of the document, show the button
-window.onscroll = function() {
-    scrollFunction();
-};
-
-function scrollFunction() {
-    if (
-        document.body.scrollTop > 100 ||
-        document.documentElement.scrollTop > 100
-    ) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-mybutton.addEventListener("click", backToTop);
-
-function backToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-    </script>
+   
 
     <!-- FOOTER -->
 
@@ -465,6 +438,39 @@ function backToTop() {
             <div class="l-2">Powered Bytossdown.com</div>
         </div>
     </footer>
+
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </button>
+    
+    <script>
+       // Get the button
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 100px from the top of the document, show the button
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 1000 ||
+        document.documentElement.scrollTop > 1000
+    ) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+    </script>
 </body>
 
 </html>
