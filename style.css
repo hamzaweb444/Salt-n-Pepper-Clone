@@ -43,19 +43,21 @@ ul{
 .container-1{
     background-color: black;
     color: white;
-    padding-bottom: 5px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .welcome{
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: rgb(170, 169, 169);
+    font-size: large;
 }
 
-p{
+.p-1{
     margin-top: 0px;
+    font-size: large;
 }
 
 .brand-names{
@@ -94,27 +96,44 @@ p{
 /* CONTAINER 2 */
 
 .container-2{
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(15, 15, 15);
     color: rgb(170, 169, 169);
+    padding-top: 50px;
+    padding-bottom: 60px;
 }
 
 .r-franchises{
-    margin-top: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     color: rgb(170, 169, 169);
+    font-size: x-large;
+}
+
+.p-2{
+    margin-top: 0px;
+    font-size: large;
 }
 
 .l-container-2{
-    margin-left: 38px;
+    margin-left: 65px;
 }
 
 .r-isl{
     display: flex;
-    gap: 200px;
+    gap: 20px;
     justify-content: center;
+}
+
+.isl-pic{
+    height: 300px;
+    width: 550px;
+}
+
+.isl-text{
+    height: 300px;
+    width: 550px;
 }
 
 .button-2-1{
@@ -143,10 +162,169 @@ p{
 
 .r-fsd{
     display: flex;
-    gap: 310px;
+    gap: 20px;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .fsd-txt{
-    margin-left: -250px;
+    height: 300px;
+    width: 550px;
+}
+
+.fsd-pic{
+    height: 300px;
+    width: 550px;
+}
+
+.r-bwl{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.bwl-pic{
+    height: 300px;
+    width: 550px;
+}
+
+.bwl-txt{
+    height: 300px;
+    width: 550px;
+}
+
+.small{
+    font-size: small;
+}
+
+/* CONTAINER 3 */
+
+.container-3{
+    background-color: black;
+    color: rgb(170, 169, 169);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.eexpress{
+    display: flex;
+    justify-content: center;
+    color:rgb(170, 169, 169) ;
+}
+
+.e-franchises{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.ee{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-3{
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px 12px;
+    border-radius: 50px;
+    gap: 15px;
+    color: white;
+}
+
+.l-container-3{
+    margin-left: 58px;
+}
+
+/* CONTAINER-4 */
+
+.container-4{
+    background-color: rgb(15, 15, 15);
+    color: rgb(170, 169, 169);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.l-container-4{
+    margin-left: 28px;
+}
+
+.v-franchise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.v-grw{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-4{
+    width: 128px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 14px 12px;
+    border-radius: 50px;
+    gap: 15px;
+    color: white;
+}
+
+/* <!-- CONTAINER 5 --> */
+
+.container-5{
+    background-color: black;
+    color: rgb(170, 169, 169);
+    padding-top: 40px;
+}
+
+.l-container-5{
+    margin-left: 140px;
+}
+
+.soon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.s-boxes{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.s-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 230px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    gap: 10px;
+    font-size: 23px;
+}
+
+.social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
 }
